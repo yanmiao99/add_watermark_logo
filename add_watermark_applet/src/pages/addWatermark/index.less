@@ -1,0 +1,40 @@
+.watermarked_image {
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  .render_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .operation {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    Button {
+      margin-top: 10px;
+    }
+  }
+
+  .canvas_water {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: -999;
+    left: -99999px;
+    top: -99999px;
+    transform: translate(-99999px, -99999px, -99999px);
+    canvas {
+      position: absolute;
+      z-index: -999;
+      left: -99999px;
+      top: -99999px;
+      transform: translate(-99999px, -99999px, -99999px);
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "add_watermark_applet",
+  "description": "add_watermark_applet",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}

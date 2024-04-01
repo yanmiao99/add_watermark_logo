@@ -9,3 +9,9 @@
 >add_watermark_web
 >
 >使用了 react18 + vite 
+
+### taro版本 (小程序)
+
+> add_watermark_applet 
+>
+> 使用了 react + taro + nutui 

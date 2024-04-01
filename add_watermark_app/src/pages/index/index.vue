@@ -92,7 +92,7 @@ const afterRead = async (event) => {
 const uploadFilePromise = (url) => {
   return new Promise((resolve, reject) => {
     uni.uploadFile({
-      url: '文件上传接口地址',
+      url: 'https://api.zwzj66.com/api/getPicUrl',
       filePath: url,
       name: 'file',
       success: (res) => {
