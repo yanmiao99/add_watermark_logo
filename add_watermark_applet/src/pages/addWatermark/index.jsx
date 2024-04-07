@@ -11,6 +11,11 @@ const WatermarkedImage = () => {
   const [fileList, setFileList] = useState([]); // 处理后图片列表
   const [renderSuccessList, setRenderSuccessList] = useState([]); // 渲染完成的图片列表
 
+  // 分享
+  Taro.showShareMenu({
+    withShareTicket: true,
+  });
+
   // 监听 changeList
   useEffect(() => {
     if (changeList.length) {
