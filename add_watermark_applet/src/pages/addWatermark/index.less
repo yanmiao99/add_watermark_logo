@@ -1,5 +1,5 @@
 .watermarked_image {
-  padding: 10px;
+  padding: 15px;
   box-sizing: border-box;
   overflow-y: auto;
   .render_content {
@@ -10,6 +10,33 @@
     align-items: center;
   }
 
+  .config {
+    margin-top: 10px;
+    .logo_position {
+      margin: 0 auto;
+      .nut-radio-button {
+        margin-top: 10px;
+        width: 95px;
+      }
+    }
+    .logo_custom_size {
+      .logo_custom_size_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        .logo_custom_size_title {
+          color: var(--nutui-divider-text-color, var(--nutui-gray-6, #595959));
+          font-size: var(
+            --nutui-divider-text-font-size,
+            var(--nutui-font-size-3, 14px)
+          );
+        }
+      }
+    }
+  }
+
   .operation {
     margin: 10px 0;
     display: flex;
@@ -17,6 +44,14 @@
     Button {
       margin-top: 10px;
     }
+  }
+
+  .render_img {
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
   }
 
   .canvas_water {

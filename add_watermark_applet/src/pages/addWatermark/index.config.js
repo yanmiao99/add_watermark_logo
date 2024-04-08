@@ -1,3 +1,3 @@
 export default definePageConfig({
-  navigationBarTitleText: '添加水印',
+  navigationBarTitleText: '聆悉水印',
 });
